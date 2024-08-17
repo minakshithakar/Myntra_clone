@@ -1,0 +1,403 @@
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 100px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+
+
+
+
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+
+
+}
+
+ul {
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    background-color: bisque;
+    color: black;
+    z-index: 1000;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.men:hover a {
+    color: rgb(31, 31, 245);
+    text-decoration: underline;
+}
+
+.women:hover a {
+    color: rgb(248, 18, 18);
+    text-decoration: underline;
+
+}
+
+.kids:hover a {
+    color: green;
+    text-decoration: underline;
+
+}
+
+.home-decor:hover a {
+    color: orange;
+    text-decoration: underline;
+
+}
+
+.beauty:hover a {
+    color: rgb(197, 10, 244);
+    text-decoration: underline;
+
+}
+
+
+
+
+ul li a {
+
+    text-align: center;
+
+}
+
+li i {
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    right: 15px;
+    float: right;
+    margin: 5px;
+
+
+}
+
+
+
+li i span {
+    display: block;
+    margin-top: 3px;
+    font-size: 15px;
+    float: right;
+
+}
+
+#search {
+    padding: 10px;
+    margin-right: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 350px;
+}
+
+section {
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+
+}
+
+section {
+    height: 60vh;
+
+    background-image: url('hero.jpg');
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    margin: 0;
+
+}
+
+#hero {
+    height: 70vh;
+
+    background-image: url('hero1.png');
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    margin: 0;
+
+}
+
+.marquee {
+    background-image: linear-gradient(rgb(226, 49, 99), violet);
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'Arial', sans-serif;
+    color: #14130f;
+    font-weight: bold;
+}
+
+h1 {
+    letter-spacing: 7px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.container a {
+    display: block;
+    width: calc(25% - 20px);
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+.container img:hover {
+    transform: scale(1.05);
+}
+
+.coupon p {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(16, 147, 234);
+}
+
+.coupon {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.coupon img {
+    width: 750px;
+    height: auto;
+}
+
+.Home-Decor {
+    display: flex;
+    margin: 20px 0;
+}
+
+.Home-pro {
+    display: flex;
+    margin: 20px 0;
+}
+
+.Home-Decor a img {
+    width: 400px;
+    height: 400px;
+    margin: 30px;
+}
+
+.Home-Decor a img:hover {
+    transform: scale(1.05);
+
+}
+
+.Home-Menu .Home-Bath {
+    display: flex;
+}
+
+.Home-Menu a {
+    color: gray;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.Home-Bath a {
+    color: gray;
+    text-decoration: none;
+    margin: 10px;
+
+
+}
+
+.Home-pro a img {
+    width: 400px;
+    height: 400px;
+    margin: 30px;
+}
+
+.Home-pro a img:hover {
+    transform: scale(1.05);
+
+}
+
+
+footer .section-p1 {
+    display: flex;
+}
+
+footer.section-p1 img {
+    width: 80%;
+    max-width: 100px;
+
+    margin-top: 0px;
+
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 15px;
+    background-color: rgb(249, 210, 163);
+}
+
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    color: black;
+}
+
+
+
+footer h4 {
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    font-size: 13px;
+    margin: 0 0 8px 0;
+    text-align: center;
+}
+
+
+
+footer a {
+    font-size: 13px;
+    text-decoration: none;
+    color: rgb(82, 78, 78);
+    margin-bottom: 10px;
+}
+
+
+
+footer .follow {
+    margin-top: 20px;
+}
+
+footer .follow p {
+    text-align: center;
+}
+
+
+footer .follow i {
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+footer .follow i:hover,
+footer a:hover {
+    color: #088178;
+
+}
+
+.kids-fashion a img {
+    width: 280px;
+    height: 350px;
+
+
+
+}
+
+.kids-explore a img {
+
+    width: 500px;
+    height: 600px;
+}
+
+.kids-space img {
+    width: 750px;
+    height: 650px;
+}
+
+.Beauty-Product {
+    display: flex;
+}
+
+.Beauty-items {
+    display: flex;
+}
+
+
+
+.Beauty-Container {
+    margin: 0%;
+    padding: 0%;
+    width: 200px;
+    /* padding: 10px; */
+    text-align: center;
+    margin: 20px auto;
+
+
+
+}
+
+.Beauty-Container img {
+    width: 100%;
+    height: auto;
+
+
+}
+
+.Beauty-Container p {
+    margin: 5px 0;
+}
+
+.Beauty-Container button {
+    margin-top: 10px;
+
+    padding: 10px 20px;
+    background-color: crimson;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.Beauty-Container button:hover {
+    background-color: #1a4e76;
+
+}
+
+.Beauty-Container:hover {
+    border: 1px solid gray;
+    box-shadow: 0 5px 10px rgba(12, 12, 12, 0.1);
+}

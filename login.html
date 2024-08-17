@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        body {
+            background-color: bisque;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: black;
+            font-weight: bold;
+        }
+
+        span {
+            color: red;
+        }
+
+        h5 {
+            color: black;
+            text-align: center;
+        }
+
+        button {
+            background-color: crimson;
+            color: white;
+            width: 100%;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .container {
+            text-align: center;
+            width: 400px;
+            background-color: white;
+        }
+
+        .container img {
+            width: auto;
+            height: auto;
+            background-color: white;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        input {
+            width: 300px;
+            padding: 10px;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="login.jpg" alt="Login Image">
+        <h1>Login</h1>
+        <form action="demo.html" autocomplete="off">
+            <label for="mobile_number">Mobile Number</label>
+            <input type="tel" id="mobile_number" required placeholder="Mobile Number"><br><br>
+            <h5>By continuing I agree to the <span>Terms of Use & Privacy Policy</span></h5>
+            <button type="submit" class="button">CONTINUE</button><br><br>
+            <h5>Have trouble logging in?<span> Get help</span></h5>
+        </form>
+    </div>
+</body>
+
+</html>
